@@ -1,2 +1,5 @@
+PROGRAM = runvtm
+TARGET = runvtm.cpp
+CXX := g++
 all: runvtm.cpp
-	g++ runvtm.cpp -std=c++11 -o runvtm
+	$(CXX) $(TARGET) -std=c++11 -o $(PROGRAM)
