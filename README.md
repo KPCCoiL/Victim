@@ -18,7 +18,7 @@ Vimの操作っぽく作られたBrainf\**kの亜種です。実装はC++です�
 | p | . |
 | i | , |
 
-また、\" から行末まではコメントと見做されます。
+また、" から行末まではコメントと見做されます。
 
 ## Install
 `$ git clone http://github.com.KPCCoiL/Victim.git && cd Victim && make`
